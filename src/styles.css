@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+    border: 0;
+    margin: 0;
+}
+form{ 
+    max-width: 30em;
+    margin: 4em auto;
+    position: relative;
+    padding: 2em 3em;
+    background-color: #f4f4f4;
+}
+form h1{
+    font-family: cursive;
+    color: #f97300;
+}
+form input[type=text]::placeholder{
+    font-family: cursive;
+    color: #666;
+}
+form .data{
+    margin-top: 1em;
+}
+form .data li{
+    background: #fff;
+    border-left: 4px solid #f97300;
+    padding: 1em;
+    margin: 1em auto;
+    font-family: cursive;
+}
+form .data li i{
+    float: right;
+    color: #888;
+    cursor: pointer;
+}
+
+form .input-group-text {
+    background-color: rgba(0, 0, 255, 0.781);
+    color: #fff;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    padding: 1em 23px;
+    position: absolute;
+    right: 13px;
+    top: 68px;
+    cursor: pointer;
+}
+form .input-group-text i{
+    font-size: 2em;
+}
+form .form-control{
+    height: 3em;
+    font-family: cursive;
+}
+form .form-control:focus{
+    box-shadow: 0;
+   }
